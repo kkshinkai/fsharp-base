@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>KkShinkai.FSharp</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>KkShinkai.FSharp.Base</PackageId>
+    <Version>0.1.0</Version>
+    <PackageTags>StandardLib;Extension</PackageTags>
+    <Description>
+      The basic library extension for F#.
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>

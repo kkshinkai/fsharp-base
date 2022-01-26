@@ -1,4 +1,4 @@
-﻿namespace KkShinkai.Collections
+﻿namespace KkShinkai.FSharp
 
 module Say =
     let hello name =
